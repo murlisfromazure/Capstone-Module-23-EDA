@@ -77,7 +77,7 @@ This project analyzes the APTOS 2019 Blindness Detection dataset, which contains
 
 - The dataset is imbalanced, with most samples labeled as 'No DR'.
 - Image resizing and CLAHE improve feature consistency and visibility.
-- Classical feature extraction with decision tree and logistic regression models  performed similary. There was notable misclassification of DR cases as 'No DR'.
+- Classical feature extraction combined with decision tree and logistic regression models yielded similar results, but both exhibited a significant tendency to misclassify diabetic retinopathy cases as 'No DR'
 - CNN features (ResNet50) significantly reduce false negatives for logistic regression.
 - Decision trees overfit on CNN features, leading to poorer performance.
 - Logistic regression with CNN features offers the best balance for clinical relevance.
