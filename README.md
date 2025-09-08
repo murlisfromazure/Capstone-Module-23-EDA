@@ -1,6 +1,6 @@
 
-# Capstone Module 23
-This is the readme file describing the repository for Module 23 Capstone project Exploratary data Analysis (EDA)
+# Capstone Module 20
+This is the readme file describing the repository for Module 20 Capstone project Exploratary data Analysis (EDA)
 
 Diabetic Retinopathy: Exploratory Data Analysis & Modeling
 
