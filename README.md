@@ -12,7 +12,7 @@ Diabetic Retinopathy: Exploratory Data Analysis & Modeling
 This project analyzes the APTOS 2019 Blindness Detection dataset, which contains 3,662 fundus images labeled by medical experts into five diabetic retinopathy (DR) categories. The goal is to explore the data, engineer features, and build models to classify DR severity, with a focus on minimizing clinically critical false negatives.
 
 ## Directory structure and files
-README.md                This file
+README.md                This file  
 CapstoneEDA.ipynb        Jupyter notebook with the initial report and exploratory data analysis.
 ## Dataset
 
