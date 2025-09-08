@@ -29,7 +29,7 @@ This project analyzes the APTOS 2019 Blindness Detection dataset, which contains
     ```
 3. Install required Python packages:
     - pandas, numpy, matplotlib, seaborn, scikit-learn, Pillow, opencv-python, tensorflow, keras
-    
+
 **Structure:**
   - `train_images/`, `test_images/`, `val_images/`: Image directories
   - `train_1.csv`, `test.csv`, `valid.csv`: CSV files with image IDs and diagnosis labels (0: No DR, 1: Mild, 2: Moderate, 3: Severe, 4: Proliferative)
@@ -77,7 +77,7 @@ This project analyzes the APTOS 2019 Blindness Detection dataset, which contains
 
 - The dataset is imbalanced, with most samples labeled as 'No DR'.
 - Image resizing and CLAHE improve feature consistency and visibility.
-- Classical models perform reasonably, but misclassify some DR cases as 'No DR'.
+- Classical feature extraction with decision tree and logistic regression models  performed similary. There was notable misclassification of DR cases as 'No DR'.
 - CNN features (ResNet50) significantly reduce false negatives for logistic regression.
 - Decision trees overfit on CNN features, leading to poorer performance.
 - Logistic regression with CNN features offers the best balance for clinical relevance.
