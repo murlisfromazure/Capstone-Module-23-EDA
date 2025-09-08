@@ -1,6 +1,6 @@
 
 # Capstone Module 20
-This is the readme file describing the repository for Module 20 Capstone project Exploratary data Analysis (EDA)
+This is the readme file describing the repository for Module 20 Capstone project initial report and exploratary data analysis (EDA)
 
 Diabetic Retinopathy: Exploratory Data Analysis & Modeling
 
@@ -11,13 +11,16 @@ Diabetic Retinopathy: Exploratory Data Analysis & Modeling
 
 This project analyzes the APTOS 2019 Blindness Detection dataset, which contains 3,662 fundus images labeled by medical experts into five diabetic retinopathy (DR) categories. The goal is to explore the data, engineer features, and build models to classify DR severity, with a focus on minimizing clinically critical false negatives.
 
+## Directory structure and files
+README.md                This file
+CapstoneEDA.ipynb        Jupyter notebook with the initial report and exploratory data analysis.
 ## Dataset
 
 - **Source:** [APTOS 2019 Blindness Detection](https://www.kaggle.com/datasets/mariaherrerot/aptos2019/data)
 
 ## Setup
 
-1. Download the dataset from Kaggle and extract it into the project directory.
+1. Download the dataset from Kaggle and extract it into the project directory. The data has already been split into test, train, and validation sets.  
 2. Ensure the following structure:
     ```
     ./Data/train_images/train_images/
@@ -27,12 +30,10 @@ This project analyzes the APTOS 2019 Blindness Detection dataset, which contains
     ./Data/test.csv
     ./Data/valid.csv
     ```
+   train_1.csv`, `test.csv`, `valid.csv` are CSV files with image IDs and diagnosis labels (0: No DR, 1: Mild, 2: Moderate, 3: Severe, 4: Proliferative).`train_images/`, `test_images/`, `val_images/` are the Image directories
+
 3. Install required Python packages:
     - pandas, numpy, matplotlib, seaborn, scikit-learn, Pillow, opencv-python, tensorflow, keras
-
-**Structure:**
-  - `train_images/`, `test_images/`, `val_images/`: Image directories
-  - `train_1.csv`, `test.csv`, `valid.csv`: CSV files with image IDs and diagnosis labels (0: No DR, 1: Mild, 2: Moderate, 3: Severe, 4: Proliferative)
 
 
 ## Analysis Workflow
